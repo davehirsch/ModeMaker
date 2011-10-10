@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+        <title>ModeMaker Release History</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <link href="../sty/main.css" rel="stylesheet" type="text/css" media="all" />
+        <style type="text/css">
+        <!--
+p.MsoSubtitle {
+margin-top:12.0pt;
+margin-right:0in;
+margin-bottom:3.0pt;
+margin-left:0in;
+font-size:12.0pt;
+font-family:Helvetica;
+font-weight:bold;
+}
+p.releaseitem {
+	margin-top:0.1in;
+	margin-right:0in;
+	margin-bottom:0.0001pt;
+	margin-left:0.75in;
+	text-align:justify;
+	text-indent:-0.5in;
+	font-size:10pt;
+	font-family:Helvetica;
+}
+p.releasesubitem {
+margin-top:0in;
+margin-right:0in;
+margin-bottom:.0001pt;
+margin-left:.75in;
+text-align:justify;
+font-size:10.0pt;
+font-family:Helvetica;
+}
+-->
+        </style>
+</head>
+
+    <body>
+    <h1>Release History    </h1>
+    <p class="releaseitem">Initiation of development September 21, 2009</p>
+    <p class="releaseitem">1.0 September 28, 2009</p>
+	<p class="releasesubitem">Initial release.</p>
+	<p class="releaseitem">1.1 September 29, 2009</p>
+	<p class="releasesubitem">Removed requirement that the keyboard focus leave the current field for changes in that field's setting to be reflected in the image.</p>
+	<p class="releasesubitem">Fixed bug in blob code that caused disallow reentrants to malfunction.</p>
+	<p class="releaseitem">1.2 September 30, 2009</p>
+	<p class="releasesubitem">Fixed (I think) a hanging bug in the Blob/Polygon code.</p>
+	<p class="releasesubitem">Made window resize correctly when loading a document.</p>
+	<p class="releasesubitem">Expanded text field for canvas size to accommodate numbers > 999.</p>
+	<p class="releaseitem">1.3 September 30, 2009</p>
+	<p class="releasesubitem">Created option for fabrics in phases that have non-unity aspect ratios.</p>
+	<p class="releaseitem">1.4 October 1, 2009</p>
+	<p class="releasesubitem">Improved speed of calculation by about 2-3 orders of magnitude.</p>
+	<p class="releasesubitem">Removed extra decimal places in mode listing.</p>
+	<p class="releaseitem">1.4.1 October 4, 2009</p>
+	<p class="releasesubitem">Removed debugging code that prevented randomness (program would produce identical results each time it was run).</p>
+	<p class="releasesubitem">Made fabric settings save with document.</p>
+	<p class="releaseitem">1.5 October 10, 2009</p>
+	<p class="releasesubitem">Fixed bug that failed to place window correctly when opening a saved document.</p>
+	<p class="releasesubitem">Implemented Undo/Redo, and &quot;dirty state&quot; of documents.</p>
+	<p class="releasesubitem">When a saved document is loaded immediately after running the program, the existing blank document is closed.</p>
+	<p class="releasesubitem">Rolled a number of bug fixes found during <a href="http://almandine.geol.wwu.edu/~dave/research/code/ModeQuiz/">ModeQuiz</a> development back into the code base.</p>
+	<p class="releaseitem">1.6 October 26, 2009</p>
+	<p class="releasesubitem">Allowed decimal entry in drawer fields.</p>
+	<p class="releasesubitem">Removed Square particle shape (redundant with Rectangle).</p>
+	<p class="releasesubitem">Changed Circle to Oval (ellipse), and allowed it to have aspect ratio and rotation.</p>
+	<p class="releasesubitem">Fixed bug in which lower phases would not recalculate when upper-level phases were altered.</p>
+	<p class="releasesubitem">Fixed bug in which fields would not update correctly when phase was removed.</p>
+	<p class="releaseitem">1.6.1 November 23, 2009</p>
+	<p class="releasesubitem">Made &quot;Actual Mode&quot; fields non-editable.</p>
+	<p class="releaseitem">1.7 June 12, 2010</p>
+	<p class="releasesubitem">Fixed bug in which changing phase order would not cause re-drawing of phases.</p>
+	<p><a href="../ModeMakerHelp.html" class="Back_link">Back to top</a></p>
+</body>
+</html>

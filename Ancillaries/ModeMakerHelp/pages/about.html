@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+        <title>ModeMaker Help</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <link href="../sty/main.css" rel="stylesheet" type="text/css" media="all" />
+</head>
+
+    <body>
+    <h1>About ModeMaker</h1>
+    <p><strong>In Brief: </strong>This program allows a user to specify a set of phases, each with a color, size, shape, and mode, and produces an image with those parameters.</p>
+    <p><strong>Details: </strong>(note that every option in the  Window has a help tag (tool tip) that provides information on its function</p>
+    <ul>
+      <li><strong>Achieving the target modes</strong>. Although ideally one could create the particles to directly achieve the desired mode, in practice that would be extremely slow, computationally, and very difficult to program. I have instead chosen an iterative algorithm in which the first attempt typically does not achieve the desired mode, and later attempts either add or remove particles until the desired mode is achieved (for small refinements in which the addition or removal of a single particle would cause the mode to &quot;jump</li>
+      over&quot; the desired mode, the algorithm will shrink or grow all particles by a small amount.
+      <li><strong>Mode measurement</strong>. Although the mode could be explicitly measured, this would be computationally quite difficult. Instead the program measures modes via a &quot;Monte Carlo&quot; method, in which a large number of randomly chosen points are created. For each point it is determined in which phase (if any) the point is located. This leads to some statistical variation, especially because I have chosen a number of points that represents a trade-off between precision and computation time. It is for this reason that the values in the &quot;measured mode&quot; column will change slightly with repeated presses of the &quot;create image&quot; button.</li>
+    </ul>
+    <p><a href="../ModeMakerHelp.html" class="Back_link">Back to top</a></p>
+</body>
+</html>

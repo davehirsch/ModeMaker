@@ -1,0 +1,18 @@
+
+For 1.5:
+
+check for memory leaks
+crashe on Snowleopard
+fix overlap for rectangles & squares
+Create preferences for # of MC points, etc.
+
+For 2.0:
+Add ability to clip to circle inset within canvas; should measure modes only in the circle as well.
+Add irregular assemblages of shapes (e.g., multiple non-rotated rectangles merged into one particle, to look like a feldspar, for example)
+Add other shapes: octagons (cf pyroxene), rhombii (cf amphibole)
+
+Redo whole thing as Foundation Tool, in order to make it a webapp?
+
+Implement Revert, Print
+
+

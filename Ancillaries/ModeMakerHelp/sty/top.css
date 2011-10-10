@@ -1,0 +1,14 @@
+body {
+	font-family: "Lucida Grande", Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	background-image: url(../images/BigPaleModeMakerIcon.png);
+	background-repeat: no-repeat;
+	background-position: 100px 0px;
+}
+a:link, a:visited {
+	color: #778fbd;
+	font-weight: bold;
+	font-size: 11pt;
+	text-decoration: none;
+	line-height: 12pt;
+}
